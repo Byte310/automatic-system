@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoFuturo - Serviços de TI & Eletrotop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Efeito de Partículas (Fundo Dinâmico) -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar Futurista -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="neon-text">TecnoFuturo</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="neon-text">Transformando <span class="highlight">Ideias</span> em Realidade Digital</h1>
+            <p>Soluções em TI e Eletrotop para o futuro.</p>
+            <button class="cta-button">Solicite um Orçamento</button>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="services">
+        <h2>Nossos <span class="highlight">Serviços</span></h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Consultoria em TI</h3>
+                <p>Otimização de infraestrutura e segurança.</p>
+            </div>
+            <div class="card">
+                <h3>Eletrotop</h3>
+                <p>Soluções energéticas inteligentes.</p>
+            </div>
+            <div class="card">
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites e sistemas sob medida.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <h2>Quem <span class="highlight">Somos</span></h2>
+        <p>Equipe especializada em inovação tecnológica.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <h2>Fale <span class="highlight">Conosco</span></h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Chatbot de Suporte -->
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>Suporte TecnoFuturo</h3>
+            <button id="close-chat">X</button>
+        </div>
+        <div class="chatbot-messages" id="chatbot-messages">
+            <!-- Mensagens aparecerão aqui via JS -->
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="user-input" placeholder="Digite sua dúvida...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle" class="chatbot-toggle">🤖</button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/background-particles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
